@@ -1,0 +1,40 @@
+{
+  "name": "redux-middleware-api-fetch",
+  "version": "0.1.0",
+  "description": "Redux middleware to perform HTTP requests with fetch",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest --config=jest.config.json --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakolech/redux-middleware-api-fetch.git"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "fetch",
+    "api",
+    "request",
+    "http",
+    "react",
+    "rest"
+  ],
+  "author": "Daniel Koza <dakolech@gmail.com> (https://github.com/dakolech)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dakolech/redux-middleware-api-fetch/issues"
+  },
+  "homepage": "https://github.com/dakolech/redux-middleware-api-fetch#readme",
+  "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "@types/node": "^8.0.26",
+    "@types/redux": "^3.6.0",
+    "react-scripts-ts": "^2.6.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "redux": "^3.7.2"
+  }
+}
