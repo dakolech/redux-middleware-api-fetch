@@ -2,10 +2,11 @@
   "name": "redux-middleware-api-fetch",
   "version": "0.1.0",
   "description": "Redux middleware to perform HTTP requests with fetch",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "js/api.middleware.js",
+  "types": "js/api.middleware.d.ts",
   "scripts": {
-    "test": "jest --config=jest.config.json --env=jsdom"
+    "test": "jest --config=jest.config.json --env=jsdom",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

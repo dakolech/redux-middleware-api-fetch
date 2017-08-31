@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "outFile": "index.js",
-    "module": "amd",
+    "outDir": "js",
+    "module": "commonjs",
     "declaration": true,
     "target": "es5",
     "lib": ["es7", "dom"],
     "sourceMap": true,
     "jsx": "react",
-    "allowJs": true,
     "moduleResolution": "node",
     "rootDir": "src",
     "forceConsistentCasingInFileNames": true,
