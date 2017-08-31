@@ -1,6 +1,6 @@
 {
   "name": "redux-middleware-api-fetch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Redux middleware to perform HTTP requests with fetch",
   "main": "js/api.middleware.js",
   "types": "js/api.middleware.d.ts",
