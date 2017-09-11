@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '8'
+- '7'
+script:
+- npm run-script build
+- npm run-script test
+before_script:
+- npm install
+notifications:
+  email:
+    secure: Zrm4A+RHNbjcE4fn9XG+uat6xZURebwUaVtZoRblvRR1eOAKDISNEKbwyTUxGZV8mZfc8D5bUIrrhHtAh/cn3bGmAK2b/nUL1LsUTrh2RSvAF0SmykBMeQpYIQyGW94NgCj/NWwY4noiVlwlb/fZY6EJohPS7B4quZEQJjPFh49S20h6OQ1ZXO3KPjg677enI3ivNLHHQfGhF+cjDuklhVfF/vmpCoIomBfB6uIoOtiFc/pPfehGD5ybwQocO8CLISoTB0UyPYwI8XWQlExKDcUTVpXND+wlBgGNvldrpGSokz15kl8UlCKLcUmp2yYTgTOFlhOc+PkAsBfzDoT4/SyzP+FgOn3roS5uL2oNEtfgA1vwlV2w/yihVgTDAlk3ulGep7IQtGDne7bK0OPgPHj9MALVZRTbi6FOkV4/1mRR8rpE1780jmA0d9ZXmsE5Xf+K7D+2tHncE/VPK7nbSRpzMUcAUnqbOrY+hTV9SPnOgzX/VgOQLHrEoEtzgBR2YVGa0wIkIKqDpLdMetNa1JzkxIeUmOQDSDv8MT7PluljGskF5y0kBuMY9TWRaBTEhwDQy5CmskhkY1EOjwLoKX18bFXo3epD7WKPrjywKpSWJ98hNk/tmWHZOumOPKEtrECOR0Eru5wUMZo05dS3JeLhmupah7tEb0iFpfBQf8c=
